@@ -20,3 +20,8 @@ function appendDriver(name) {
   newList = [...drivers.slice(0), name]
   return newList
 }
+
+function prependDriver(name) {
+  newList = [name, ...drivers.slice(0)]
+  return newList
+}
