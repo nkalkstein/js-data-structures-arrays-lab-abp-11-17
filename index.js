@@ -27,5 +27,6 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  drivers.splice(drivers.length-1, 1)
+  newList = drivers.splice(drivers.length-1, 1)
+  return newList
 }
