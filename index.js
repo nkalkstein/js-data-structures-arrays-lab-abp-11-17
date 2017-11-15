@@ -18,4 +18,5 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver(name) {
   newList = [drivers.slice(0), ..."Bob"]
+  return newList
 }
