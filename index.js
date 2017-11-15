@@ -16,6 +16,4 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift()
 }
 
-function appendDriver(name) {
-  newList = [drivers..., "Bob"]
-}
+
